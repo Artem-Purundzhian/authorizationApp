@@ -1,0 +1,125 @@
+body{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #5C5A6C;
+    color: #D9D6EE;
+    width: 100%;
+}
+
+.loginForm-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginForm-container > *{
+}
+
+.loginForm-container button{
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+input{
+    border-radius: 30px;
+    background-color: #35324F;
+    padding: 20px 30px;
+    border: none;
+    color: #E6E3FC;
+    font-size: 20px;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+input:focus-visible{
+    outline: none;
+}
+
+input::placeholder{
+    color: #D9D6EE;
+
+}
+
+button{
+    font-size: 20px;
+    width: 30%;
+    border-radius: 30px;
+    background-color: #040027;
+    padding: 17px 30px;
+    border: #040027 3px solid;
+    color: #E6E3FC;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover{
+    background-color: #04002782;
+    border-color: #04002782 ;
+    cursor: pointer;
+}
+
+.registerBtn{
+    background-color: transparent;
+    border: #040027 3px solid;
+    color:#040027;
+}
+
+.registerBtn:hover{
+    background-color: #040027;
+    color: #E6E3FC;
+}
+
+.userData{
+    margin: 50px 0;
+}
+.usersEmail{
+    margin: 5px 0;
+    padding: 5px 20px;
+    background-color: #04002782;
+
+}
+
+.calculator-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.salaryInput{
+    width: 30%;
+    margin-top: 0;
+}
+
+.number-container{
+    margin-top: 15px;
+}
+.number{
+    margin: 5px auto;
+    background-color: #04002782;
+    width: fit-content;
+    padding: 10px 30px;
+}
